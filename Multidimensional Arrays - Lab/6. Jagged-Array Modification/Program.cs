@@ -12,8 +12,8 @@ namespace _6._Jagged_Array_Modification
             string command = Console.ReadLine();
             while (command != "END")
             {
-                
-                string[] vs = command.Split(' ',StringSplitOptions.RemoveEmptyEntries);
+
+                string[] vs = command.Split(' ', StringSplitOptions.RemoveEmptyEntries);
                 string comand = vs[0];
                 int row = int.Parse(vs[1]);
                 int col = int.Parse(vs[2]);
