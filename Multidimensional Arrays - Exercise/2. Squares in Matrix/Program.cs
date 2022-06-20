@@ -10,35 +10,31 @@ namespace _2._Squares_in_Matrix
             int[] size = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             int rows = size[0];
             int cols = size[1];
-            string[,] matrix = new string[rows, cols];
+            char[,] matrix = new char[rows, cols];
             for (int row = 0; row < rows; row++)
             {
-                string[] input = Console.ReadLine().Split(' ');
+                char[] input = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(char.Parse).ToArray();
                 for (int col = 0; col < cols; col++)
                 {
                     matrix[row, col] = input[col];
                 }
             }
+            
             int counter = 0;
-            for (int row = 0; row < rows; row++)
+
+            for (int row = 0; row < rows - 1; row++)
             {
-
-                for (int col = 0; col < cols; col++)
+                for (int col = 0; col < cols - 1; col++)
                 {
-                    if (row + 1 < rows && col + 1 < cols)
+                    if (matrix[row, col] == matrix[row, col + 1]
+                        && matrix[row, col] == matrix[row + 1, col]
+                        && matrix[row, col] == matrix[row + 1, col + 1])
                     {
-                        string symbol1 = matrix[row, col];
-                        string symbol2 = matrix[row, col + 1];
-                        string symbol3 = matrix[row + 1, col];
-                        string symbol4 = matrix[row + 1, col + 1];
-                        if (symbol1 == symbol2 && symbol3 == symbol4)
-                        {
-                            counter++;
-                        }
+                        counter++;
                     }
-
                 }
             }
+
             Console.WriteLine(counter);
 
         }
