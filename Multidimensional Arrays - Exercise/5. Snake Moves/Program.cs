@@ -4,6 +4,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        //NOTE
         int[] size = Console.ReadLine()
                    .Split(' ', StringSplitOptions.RemoveEmptyEntries)
                    .Select(int.Parse)
