@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 
 namespace Sets_and_Dictionaries_Advanced___Lab
 {
@@ -15,6 +16,8 @@ namespace Sets_and_Dictionaries_Advanced___Lab
             {
                 Console.WriteLine(dic.ContainsValue(150));
             }
+            Vector3 v = new Vector3();
+            
                 
         }
     }
