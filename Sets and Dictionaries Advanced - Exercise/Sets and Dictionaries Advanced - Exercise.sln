@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sets and Dictionaries Advanced - Exercise", "Sets and Dictionaries Advanced - Exercise\Sets and Dictionaries Advanced - Exercise.csproj", "{4AE39172-A3FF-44D0-8940-FFDDC7178CB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sets and Dictionaries Advanced - Exercise", "Sets and Dictionaries Advanced - Exercise\Sets and Dictionaries Advanced - Exercise.csproj", "{4AE39172-A3FF-44D0-8940-FFDDC7178CB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Unique Usernames", "01. Unique Usernames\01. Unique Usernames.csproj", "{6EF272E6-D26C-4B84-B5AD-86E290E1B896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Unique Usernames", "01. Unique Usernames\01. Unique Usernames.csproj", "{6EF272E6-D26C-4B84-B5AD-86E290E1B896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sets of Elements", "02. Sets of Elements\02. Sets of Elements.csproj", "{0D764A9B-0E44-4962-87BF-41ACE34ABD29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Sets of Elements", "02. Sets of Elements\02. Sets of Elements.csproj", "{0D764A9B-0E44-4962-87BF-41ACE34ABD29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Periodic Table", "03. Periodic Table\03. Periodic Table.csproj", "{6CAA1C0B-B7A9-47E8-A203-1F619A1F79BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Periodic Table", "03. Periodic Table\03. Periodic Table.csproj", "{6CAA1C0B-B7A9-47E8-A203-1F619A1F79BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Even Times", "04. Even Times\04. Even Times.csproj", "{AE441DEE-77EC-4012-8AF6-422675D773C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Even Times", "04. Even Times\04. Even Times.csproj", "{AE441DEE-77EC-4012-8AF6-422675D773C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Count Symbols", "05. Count Symbols\05. Count Symbols.csproj", "{CAEC1611-BEDF-47BC-B779-6AC2696115C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AE441DEE-77EC-4012-8AF6-422675D773C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE441DEE-77EC-4012-8AF6-422675D773C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE441DEE-77EC-4012-8AF6-422675D773C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEC1611-BEDF-47BC-B779-6AC2696115C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEC1611-BEDF-47BC-B779-6AC2696115C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEC1611-BEDF-47BC-B779-6AC2696115C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEC1611-BEDF-47BC-B779-6AC2696115C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
