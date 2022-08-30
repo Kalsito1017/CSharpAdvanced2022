@@ -7,66 +7,31 @@ namespace _05._Applied_Arithmetics
     {
         static void Main(string[] args)
         {
-            Action<int[]> add = numberss =>
+            int[] nums = Console.ReadLine()
+                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+            string input = Console.ReadLine();
+            while (input != "end")
             {
-                for (int i = 0; i < numberss.Length; i++)
+                switch (input)
                 {
-                    numberss[i] += 1;
+                    case "add":
+                        nums = nums.Select(x => x + 1).ToArray();
+                        break;
+                    case "multiply":
+                        nums = nums.Select(x => x * 2).ToArray();
+                        break;
+                    case "subtract":
+                        nums = nums.Select(x => x - 1).ToArray();
+                        break;
+                    case "print":
+                        Console.WriteLine(string.Join(' ', nums));
+                        break;
                 }
-                
-            };
-            Action<int[]> subtract = numberss =>
-            {
-                for (int i = 0; i < numberss.Length; i++)
-                {
-                    numberss[i] -= 1;
-                }
-               
-            };
-            Action<int[]> multiply = numberss =>
-            {
-                for (int i = 0; i < numberss.Length; i++)
-                {
-                    numberss[i] *= 2;
-                }
-            };
-            Action<int[]> PrintNumbers = numbers => Console.WriteLine(String.Join(" ", numbers));
 
 
-            int[] numbers = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
-            string comand = Console.ReadLine();
-            List<int> list = new List<int>();
-            while (true)
-            {
-                comand = Console.ReadLine();
-                if (comand == "end")
-                {
-                    break;
-                }
-                
-                if (comand == "add")
-                {
-                    
-                     add(numbers);
-                    
-                }
-                else if(comand == "multiply")
-                {
-                    
-                     multiply(numbers);
-                    
-
-                }
-                else if (comand == "subtract")
-                {
-                   
-                        subtract(numbers);
-                    
-                }
-                else if (comand == "print")
-                {
-                    PrintNumbers(numbers);
-                }
+                input = Console.ReadLine();
             }
         }
     }
