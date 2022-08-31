@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Defining Classes - Lab", "Defining Classes - Lab\Defining Classes - Lab.csproj", "{E50860BA-4874-46A4-B17F-4E520C557177}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Defining Classes - Lab", "Defining Classes - Lab\Defining Classes - Lab.csproj", "{E50860BA-4874-46A4-B17F-4E520C557177}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Car", "01. Car\01. Car.csproj", "{7B5959A0-DD7B-422A-B209-F610162CE75A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Car", "01. Car\01. Car.csproj", "{7B5959A0-DD7B-422A-B209-F610162CE75A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Car Extension", "02. Car Extension\02. Car Extension.csproj", "{828302D6-536C-4B71-AB64-E464A619A462}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Car Extension", "02. Car Extension\02. Car Extension.csproj", "{828302D6-536C-4B71-AB64-E464A619A462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Car Constructors", "03. Car Constructors\03. Car Constructors.csproj", "{ED31DC08-2ECA-46A2-A0A5-ABD0711FE286}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{828302D6-536C-4B71-AB64-E464A619A462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{828302D6-536C-4B71-AB64-E464A619A462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{828302D6-536C-4B71-AB64-E464A619A462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED31DC08-2ECA-46A2-A0A5-ABD0711FE286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED31DC08-2ECA-46A2-A0A5-ABD0711FE286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED31DC08-2ECA-46A2-A0A5-ABD0711FE286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED31DC08-2ECA-46A2-A0A5-ABD0711FE286}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
