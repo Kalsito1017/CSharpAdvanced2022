@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace _01._Car
+namespace CarManufacturer
 {
-    internal class Program
+    public class StartUp
     {
         
         class Car

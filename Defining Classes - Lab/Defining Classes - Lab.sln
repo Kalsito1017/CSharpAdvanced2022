@@ -11,6 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Car Extension", "02. Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Car Constructors", "03. Car Constructors\03. Car Constructors.csproj", "{ED31DC08-2ECA-46A2-A0A5-ABD0711FE286}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Car Engine And Tires", "04. Car Engine And Tires\04. Car Engine And Tires.csproj", "{8DD67C65-856E-4584-9B05-EB3DAB3C27B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Special Cars", "05. Special Cars\05. Special Cars.csproj", "{0C8C3A5B-36F3-4A10-972C-819487C8A23C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{EEACB039-6EDD-4131-AF8D-E32AF05A3299}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +39,18 @@ Global
 		{ED31DC08-2ECA-46A2-A0A5-ABD0711FE286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED31DC08-2ECA-46A2-A0A5-ABD0711FE286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED31DC08-2ECA-46A2-A0A5-ABD0711FE286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD67C65-856E-4584-9B05-EB3DAB3C27B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD67C65-856E-4584-9B05-EB3DAB3C27B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD67C65-856E-4584-9B05-EB3DAB3C27B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD67C65-856E-4584-9B05-EB3DAB3C27B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8C3A5B-36F3-4A10-972C-819487C8A23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8C3A5B-36F3-4A10-972C-819487C8A23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8C3A5B-36F3-4A10-972C-819487C8A23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8C3A5B-36F3-4A10-972C-819487C8A23C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEACB039-6EDD-4131-AF8D-E32AF05A3299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEACB039-6EDD-4131-AF8D-E32AF05A3299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEACB039-6EDD-4131-AF8D-E32AF05A3299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEACB039-6EDD-4131-AF8D-E32AF05A3299}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

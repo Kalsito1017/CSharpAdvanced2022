@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Text;
 
-namespace _02._Car_Extension
+namespace CarManufacturer
 {
-    internal class Program
+    public class StartUp
     {
         class CarManufacturer
         {
