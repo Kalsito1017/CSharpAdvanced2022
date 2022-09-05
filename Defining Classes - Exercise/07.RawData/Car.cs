@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _07.RawData
 {
-    internal class Car
+    public class Car
     {
         public Car(string model, Engine engine, Cargo cargo, List<Tire> tires)
         {
