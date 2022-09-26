@@ -1,0 +1,20 @@
+.cs
+--Mecanismo.cs - 0.994kb
+--Program.cs - 1.108kb
+--Nashmat.cs - 3.967kb
+--Wedding.cs - 23.787kb
+--Program - Copy.cs - 35.679kb
+--Salimur.cs - 588.657kb
+.txt
+--backup.txt - 0.028kb
+--log.txt - 6.72kb
+.asm
+--script.asm - 0.028kb
+.config
+--App.config - 0.187kb
+.csproj
+--01. Writing-To-Files.csproj - 2.57kb
+.js
+--controller.js - 1635.143kb
+.php
+--model.php - 0kb
