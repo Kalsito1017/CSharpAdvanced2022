@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Warm Winter", "01.Warm W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Cocktail Party", "03. Cocktail Party\03. Cocktail Party.csproj", "{CC4514A8-7637-435C-A4DB-69CF2887640E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Drones", "03.Drones\03.Drones.csproj", "{43D7D477-EBD4-4318-B4C7-98B4446D0225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Blacksmith", "01. Blacksmith\01. Blacksmith.csproj", "{3B29A542-462C-4382-82FE-487B13142EC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{CC4514A8-7637-435C-A4DB-69CF2887640E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4514A8-7637-435C-A4DB-69CF2887640E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4514A8-7637-435C-A4DB-69CF2887640E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D7D477-EBD4-4318-B4C7-98B4446D0225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D7D477-EBD4-4318-B4C7-98B4446D0225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D7D477-EBD4-4318-B4C7-98B4446D0225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D7D477-EBD4-4318-B4C7-98B4446D0225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B29A542-462C-4382-82FE-487B13142EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B29A542-462C-4382-82FE-487B13142EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B29A542-462C-4382-82FE-487B13142EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B29A542-462C-4382-82FE-487B13142EC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
