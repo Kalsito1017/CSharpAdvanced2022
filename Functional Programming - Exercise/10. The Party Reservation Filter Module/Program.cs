@@ -8,52 +8,56 @@ namespace _10._The_Party_Reservation_Filter_Module
     {
         static void Main(string[] args)
         {
-         
-            List<string> People = Console.ReadLine().Split().ToList();
-            var dictionary = new Dictionary<string, Predicate<string>>();
 
-            string command = Console.ReadLine();
-            while (command != "Print")
+            List<string> guests = Console.ReadLine().Split().ToList();
+
+            List<string> commands = new List<string>();
+
+            string cmd;
+            while ((cmd = Console.ReadLine()) != "Print")
             {
-                string[] commandInfo = command.Split(';');
-                string action = commandInfo[0];
-                string predicateAction = commandInfo[1];
-                string value = commandInfo[2];
-                string key = predicateAction + "_" + action;
-                if (action == "Add filter")
+                if (cmd.StartsWith("Add filter"))
                 {
-                    Predicate<string> predicate = GetPredicate(predicateAction, value);
-                    dictionary.Add(key, predicate);
+                    commands.Add(cmd);
                 }
-                else
+                else if (cmd.StartsWith("Remove filter"))
                 {
-                   dictionary.Remove(key);
+                    cmd = cmd.Replace("Remove", "Add");
+                    commands.Remove(cmd);
                 }
-                command = Console.ReadLine();
             }
-            foreach (var (key, predicate) in dictionary)
+
+            foreach (var comm in commands)
             {
-                People.RemoveAll(predicate);
+                string filterType = comm.Split(";")[1];
+                string filterParam = comm.Split(";")[2];
+
+                Predicate<string> startWith = str => str.StartsWith(filterParam);
+                Predicate<string> endsWith = str => str.EndsWith(filterParam);
+                Predicate<string> isInLength = str => str.Length == int.Parse(filterParam);
+                Predicate<string> contains = str => str.Contains(filterParam);
+
+                if (filterType == "Starts with")
+                {
+                    guests.RemoveAll(startWith);
+                }
+                else if (filterType == "Ends with")
+                {
+                    guests.RemoveAll(endsWith);
+                }
+                else if (filterType == "Length")
+                {
+                    guests.RemoveAll(isInLength);
+                }
+                else if (filterType == "Contains")
+                {
+                    guests.RemoveAll(contains);
+                }
             }
-            Console.WriteLine(String.Join(" ", People));
+
+            Console.WriteLine(string.Join(" ", guests));
         }
 
-        private static Predicate<string> GetPredicate(string commandInfo, string param)
-        {
-            if (commandInfo == "Start with")
-            {
-                return x => x.StartsWith(param);
-            }
-            if (commandInfo == "Ends with")
-            {
-                return x => x.EndsWith(param);
-            }
-            if (commandInfo == "Contains")
-            {
-                return x => x.Contains(param);
-            }
-            int lenght = int.Parse(param);
-            return x => x.Length == lenght;
-        }
+       
     }
 }

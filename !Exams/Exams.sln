@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Drones", "03.Drones\03.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Blacksmith", "01. Blacksmith\01. Blacksmith.csproj", "{3B29A542-462C-4382-82FE-487B13142EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Armory", "02. Armory\02. Armory.csproj", "{6592F4FD-C1E3-4D95-86B4-2E4C374000AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Armory", "02. Armory\02. Armory.csproj", "{6592F4FD-C1E3-4D95-86B4-2E4C374000AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classroom", "Classroom\Classroom.csproj", "{79A2E215-F362-4CBA-BC97-0FFE293A300F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{6592F4FD-C1E3-4D95-86B4-2E4C374000AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6592F4FD-C1E3-4D95-86B4-2E4C374000AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6592F4FD-C1E3-4D95-86B4-2E4C374000AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A2E215-F362-4CBA-BC97-0FFE293A300F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A2E215-F362-4CBA-BC97-0FFE293A300F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A2E215-F362-4CBA-BC97-0FFE293A300F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A2E215-F362-4CBA-BC97-0FFE293A300F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
