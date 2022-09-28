@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,23 +21,23 @@ namespace Zoo
         }
         public string AddAnimal(Animal animal)
         {
-            if (animal.Species == null || animal.Species == " ")
-            {
-                return "Invalid animal species.";
-            }
-            if (animal.Diet != "herbivore" && animal.Diet != "carnivore")
-            {
-                return "Invalid animal diet.";
-            }
-            if (Capacity  == 0)
-            {
-                return "The zoo is full.";
-            }
-            Animals.Add(animal);
-            this.Capacity--;
-             return $"Successfully added {animal.Species} to the zoo.";
-            
+            if (Animals.Count < Capacity)
+            { 
+                    if (string.IsNullOrWhiteSpace(animal.Species))
+                    {
+                        return "Invalid animal species.";
+                    }
+                    if (animal.Diet != "herbivore" && animal.Diet != "carnivore")
+                    {
+                        return "Invalid animal diet.";
+                    }
+                
+                Animals.Add(animal);
+                
+                return $"Successfully added {animal.Species} to the zoo.";
 
+            }
+            return "The zoo is full.";
         }
         public int RemoveAnimals(string species)
         {
