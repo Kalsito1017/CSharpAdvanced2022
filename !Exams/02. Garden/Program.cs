@@ -56,7 +56,7 @@ namespace _02._Garden
                 garden[currRow, currCol] -= 2;
             }
 
-            PrintGarden(garden);
+            PrintGarden(garden); 
         }
         private static bool IsInRange(int[,] garden, int row, int col)
         {
