@@ -18,6 +18,5 @@ namespace GenericScale
             bool result = this.left.Equals(this.right);
             return result;
         }
-
     }
 }
