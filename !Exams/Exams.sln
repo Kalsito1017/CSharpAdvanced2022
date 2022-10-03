@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Scheduling", "01. Sched
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Garden", "02. Garden\02. Garden.csproj", "{418476F0-17FE-445D-8EDC-D382C6A0BC87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Tiles Master", "01. Tiles Master\01. Tiles Master.csproj", "{B617FCE1-6622-45E7-A897-45BB86C4B11B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Tiles Master", "01. Tiles Master\01. Tiles Master.csproj", "{B617FCE1-6622-45E7-A897-45BB86C4B11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Basketball", "03. Basketball\03. Basketball.csproj", "{9CE841F2-B40C-4F9D-BE5A-3785920700F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{B617FCE1-6622-45E7-A897-45BB86C4B11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B617FCE1-6622-45E7-A897-45BB86C4B11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B617FCE1-6622-45E7-A897-45BB86C4B11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE841F2-B40C-4F9D-BE5A-3785920700F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE841F2-B40C-4F9D-BE5A-3785920700F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE841F2-B40C-4F9D-BE5A-3785920700F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE841F2-B40C-4F9D-BE5A-3785920700F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
