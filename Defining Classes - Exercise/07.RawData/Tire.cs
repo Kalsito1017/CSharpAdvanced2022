@@ -2,16 +2,28 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _07.RawData
+namespace Cars
 {
     public class Tire
     {
-        public int Age { get; set; }
-        public double Pressure { get; set; }
+        private int age;
+        private double pressure;
+
+        public int Age
+        {
+            get { return age; }
+            set { age = value; }
+        }
+        public double Pressure
+        {
+            get { return pressure; }
+            set { pressure = value; }
+        }
+
         public Tire(int age, double pressure)
         {
-            Age = age;
-            Pressure = pressure;
+            this.Age = age;
+            this.Pressure = pressure;
         }
     }
 }
