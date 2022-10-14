@@ -112,12 +112,12 @@ namespace _02._The_Battle_of_The_Five_Armies
                 field[row - moveRow][col - moveCol] = '-';
                 Console.WriteLine($"The army managed to free the Middle World! Armor left: {armour}");
                 PrintField(field);
-                isEnd = true;//???
+                isEnd = true;
             }
             else
             {
                 field[row][col] = 'A';
-                field[row - moveRow][col - moveCol] = '-';//e tva e ctl alt w?
+                field[row - moveRow][col - moveCol] = '-';
 
                 if (armour <= 0)
                 {
@@ -137,7 +137,7 @@ namespace _02._The_Battle_of_The_Five_Armies
         {
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
-                Console.WriteLine(string.Join("", matrix[row]));//XDDDDDDDDDDDDDDDdDDDDDD
+                Console.WriteLine(string.Join("", matrix[row]));
             }
         }
     }
