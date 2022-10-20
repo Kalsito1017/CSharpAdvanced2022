@@ -51,9 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Masterchef", "01.Masterc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Ski Rental", "03. Ski Rental\03. Ski Rental.csproj", "{748621FC-502B-4BBF-8F18-5D97EC7634FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Lootbox", "01. Lootbox\01. Lootbox.csproj", "{D4B497AB-D4E5-4CA0-9C0A-14E6C9F6174C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Lootbox", "01. Lootbox\01. Lootbox.csproj", "{D4B497AB-D4E5-4CA0-9C0A-14E6C9F6174C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Re-Volt", "02. Re-Volt\02. Re-Volt.csproj", "{C8A83321-6D39-4229-AF38-DB1C31F044A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Re-Volt", "02. Re-Volt\02. Re-Volt.csproj", "{C8A83321-6D39-4229-AF38-DB1C31F044A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Guild", "03. Guild\03. Guild.csproj", "{FD0B031D-3799-4AF2-9784-83ADC770B604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{C8A83321-6D39-4229-AF38-DB1C31F044A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8A83321-6D39-4229-AF38-DB1C31F044A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8A83321-6D39-4229-AF38-DB1C31F044A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0B031D-3799-4AF2-9784-83ADC770B604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0B031D-3799-4AF2-9784-83ADC770B604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0B031D-3799-4AF2-9784-83ADC770B604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0B031D-3799-4AF2-9784-83ADC770B604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
