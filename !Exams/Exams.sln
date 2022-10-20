@@ -55,7 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Lootbox", "01. Lootbox\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Re-Volt", "02. Re-Volt\02. Re-Volt.csproj", "{C8A83321-6D39-4229-AF38-DB1C31F044A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Guild", "03. Guild\03. Guild.csproj", "{FD0B031D-3799-4AF2-9784-83ADC770B604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Guild", "03. Guild\03. Guild.csproj", "{FD0B031D-3799-4AF2-9784-83ADC770B604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. The Fight for Gondor", "01. The Fight for Gondor\01. The Fight for Gondor.csproj", "{BE794B9B-EA08-4BB9-91F7-4E95780B3583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Warships", "02. Warships\02. Warships.csproj", "{CC90A5A9-89E1-4103-88CE-03ED6ACE1364}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +175,14 @@ Global
 		{FD0B031D-3799-4AF2-9784-83ADC770B604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD0B031D-3799-4AF2-9784-83ADC770B604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD0B031D-3799-4AF2-9784-83ADC770B604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE794B9B-EA08-4BB9-91F7-4E95780B3583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE794B9B-EA08-4BB9-91F7-4E95780B3583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE794B9B-EA08-4BB9-91F7-4E95780B3583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE794B9B-EA08-4BB9-91F7-4E95780B3583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC90A5A9-89E1-4103-88CE-03ED6ACE1364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC90A5A9-89E1-4103-88CE-03ED6ACE1364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC90A5A9-89E1-4103-88CE-03ED6ACE1364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC90A5A9-89E1-4103-88CE-03ED6ACE1364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
