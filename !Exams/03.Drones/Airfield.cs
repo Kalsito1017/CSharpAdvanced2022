@@ -100,7 +100,7 @@ namespace Drones
             {
                 sb.AppendLine(drones.ToString());
             }
-            return sb.ToString().TrimEnd();
+            return sb.ToString().Trim();
         }
 
     }
