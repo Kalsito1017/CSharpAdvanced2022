@@ -61,7 +61,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. The Fight for Gondor", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Warships", "02. Warships\02. Warships.csproj", "{CC90A5A9-89E1-4103-88CE-03ED6ACE1364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. The Race", "03. The Race\03. The Race.csproj", "{27B1617C-C69C-4FBA-A3E0-612F40C7055B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. The Race", "03. The Race\03. The Race.csproj", "{27B1617C-C69C-4FBA-A3E0-612F40C7055B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Cooking", "01. Cooking\01. Cooking.csproj", "{836FE661-A359-49F7-B8A1-2CF285BA6B0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{27B1617C-C69C-4FBA-A3E0-612F40C7055B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27B1617C-C69C-4FBA-A3E0-612F40C7055B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27B1617C-C69C-4FBA-A3E0-612F40C7055B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836FE661-A359-49F7-B8A1-2CF285BA6B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836FE661-A359-49F7-B8A1-2CF285BA6B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836FE661-A359-49F7-B8A1-2CF285BA6B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836FE661-A359-49F7-B8A1-2CF285BA6B0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
